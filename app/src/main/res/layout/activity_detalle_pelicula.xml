@@ -10,7 +10,7 @@
     
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <ImageView
@@ -41,5 +41,27 @@
             android:textColor="@color/yellow"/>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBuyTickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button"
+        android:paddingHorizontal="@dimen/paddingButton"
+        android:text="BUY MY TICKETS!" />
+
+    <TextView
+        android:id="@+id/tvSeatsLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:text="20 asientos disponibles"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/yellow"/>
 
 </LinearLayout>
